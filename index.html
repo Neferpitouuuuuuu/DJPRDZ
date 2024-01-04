@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DJP</title>
+    <link rel="icon" href="imahe/djp logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7198cb30db.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <audio src="true-soundfx-MD.mp3"></audio>
+    <div class="main" id="section1"></div>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="imahe/prdz.png" class="logo" />
+          <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">About me</a></li>
+            <li><a href="#section3">Certificates</a></li>
+            <li><a href="#section4">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>David Joshua <span>Paradeza</span></h1>
+          <h2>
+            I am a dynamic and motivated Computer Engineering student actively
+            seeking a challenging internship. Eager to expand my skills and
+            contribute to innovative projects in a dynamic team environment.
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <!-------bio------>
+    <div class="main" id="section2"></div>
+    <div id="bio">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <h1>About Me</h1>
+            <p>
+              I am a dynamic and motivated Computer Engineering student actively
+              seeking a challenging internship. Eager to expand my skills and
+              contribute to innovative projects in a dynamic team environment.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('expertise')">Expertise</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Project Management</span><br />Can manage projects
+                </li>
+                <li><span>Problem Solving</span><br />Can solve problems</li>
+                <li>
+                  <span>Adaptive</span><br />Fast learner can easily adapt
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="expertise">
+              <ul>
+                <li><span>OOP</span><br />Object Oriented Programming</li>
+                <li>
+                  <span>Micro Controller Programming</span><br />Arduino
+                  Programming
+                </li>
+                <li><span>Visual Design</span><br />Visual Designer</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>College</span><br />Colegio De San Gabriel Arcangel
+                </li>
+                <li>
+                  <span>Senior High School</span><br />Sapang Palay National
+                  High School
+                </li>
+                <li>
+                  <span>Junior High School</span><br />CITRUS National High
+                  School
+                </li>
+                <li>
+                  <span>Elementary</span><br />Bagong Buhay G Elementary School
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-col-2">
+            <img src="imahe/1x1 ni djp.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------Certificates---->
+    <div class="main" id="section3"></div>
+    <div class="hero1">
+      <h1>CERTIFICATES</h1>
+      <img src="imahe/RASPB  PROGRAMMING.png" class="column" />
+      <img src="imahe/RASPB INTRO.png" class="column" />
+      <img src="imahe/INTERFACING DIGITAL ANALOG RASPB.png" class="column" />
+      <img src="imahe/BOSH.png" class="column" />
+      <img src="imahe/ICPEP 2021.png" class="column" />
+      <img src="imahe/ICPEP 2022.png" class="column" />
+      <img
+        src="imahe/cropped-csc-logo-new-1024x768px.webp"
+        class="columnspace"
+      />
+      <a
+        href="https://exam.csc.gov.ph/detail_examinee?id=183694"
+        target="_blank"
+      >
+        <img
+          src="imahe/cropped-csc-logo-new-1024x768px.webp"
+          href
+          class="column"
+        />
+      </a>
+      <img
+        src="imahe/cropped-csc-logo-new-1024x768px.webp"
+        class="columnspace"
+      />
+    </div>
+    <!------------contacts---------->
+    <div class="main" id="section4"></div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1>Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>joshua1paradeza@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>09123456790</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.messenger.com/" target="_blank"
+                ><i class="fa-brands fa-facebook-messenger"></i
+              ></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <a href="imahe/DJP 2023.pdf" download class="btn">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                type="Message"
+                rows="6"
+                placdeholer="Your Message"
+              ></textarea>
+              <button type="submit" class="btn2">
+                <p>Submit</p>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="gawani">
+        <p>Ginawa ni Joshua</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycby9zY5GUH1XXGR2PnYokuLcrgefqFiZocVgOLsaapAUGDx-1aYLrQV3lF6yX-Lbz6PP/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script>
+      window.addEventListener("click", (event) => {
+        const audio = document.querySelector("audio");
+        audio.volume = 0.5;
+        audio.play();
+      });
+    </script>
+  </body>
+</html>
